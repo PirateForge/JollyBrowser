@@ -1,40 +1,17 @@
-Beaker Browser
+Jolly Browser
 ======
-[![Backers on Open Collective](https://opencollective.com/beaker/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/beaker/sponsors/badge.svg)](#sponsors)
 
 ![logo.png](build/icons/256x256.png)
 
-Beaker is an experimental peer-to-peer Web browser. It adds new APIs for building hostless applications while remaining compatible with the rest of the Web. [Visit the website.](https://beakerbrowser.com/)
+Jolly Browser is an experimental peer-to-peer Web browser based on the Beaker and Hyper Protocol. It adds new APIs for building hostless applications while remaining compatible with the rest of the Web. [Visit the website.](https://jolly.polskapariapiratow.pl/)
 
-Please feel free to open usability issues. Join us at #beakerbrowser on Freenode.
-
-### Sponsors
-
-Sponsors support this project by contributing $100 a month or more. [Become a sponsor](https://opencollective.com/beaker#sponsor)
-
-<a href="https://opencollective.com/beaker/sponsor/0/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/1/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/2/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/3/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/4/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/5/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/6/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/7/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/8/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/beaker/sponsor/9/website" target="_blank"><img src="https://opencollective.com/beaker/sponsor/9/avatar.svg"></a>
-
-### Backers
-
-Backers support this project by contributing $2 to $99 a month. [Become a backer](https://opencollective.com/beaker#backer)
-
-<a href="https://opencollective.com/beaker#backers" target="_blank"><img src="https://opencollective.com/beaker/backers.svg?width=890"></a>
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
+- [Why Jolly?](#whyjolly)
 - [Installing](#installing)
   - [Binaries](#binaries)
   - [Building from source](#building-from-source)
@@ -49,12 +26,14 @@ Backers support this project by contributing $2 to $99 a month. [Become a backer
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## WhyJolly
+Because the international pirate movement deeserves its own, decentralized browser and a new peer-2-peer protocol to faciliate the real possibility to bring back equilibrium in today's digital world.
 
 ## Installing
 
 ### Binaries
 
-**Visit the [Releases Page](https://github.com/beakerbrowser/beaker/releases) to find the installer you need.**
+**Visit the [Releases Page](https://github.com/PirateForge/JollyBrowser/releases) to find the installer you need.**
 
 ### Building from source
 
@@ -80,7 +59,7 @@ npm install -g gulp
 To build:
 
 ```bash
-git clone https://github.com/beakerbrowser/beaker.git
+git clone https://github.com/PirateForge/JollyBrowser.git
 cd beaker/scripts
 npm install # don't worry about v8 api errors building native modules - rebuild will fix
 npm run rebuild # needed after each install. see https://github.com/electron/electron/issues/5851
@@ -116,18 +95,14 @@ See [SECURITY.md](./SECURITY.md) for reporting security issues and vulnerabiliti
 
 ### tmux
 
-Launching from tmux is known to cause issues with GUI apps in macOS. On Beaker, it may cause the application to hang during startup.
+Launching from tmux is known to cause issues with GUI apps in macOS. On Jolly, it may cause the application to hang during startup.
 
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-[![](https://opencollective.com/beaker/contributors.svg?width=890)](https://github.com/beakerbrowser/beaker/graphs/contributors)
 
 ## License
 
 MIT License (MIT)
 
-Copyright (c) 2018 Blue Link Labs
+Copyright (c) 2021 Polska Partia Piratów
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
